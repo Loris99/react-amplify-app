@@ -93,7 +93,7 @@ class Products extends Component {
       ))}
       </Grid>
       <Button size="small" onClick={()=>{
- this.props.history.push("/order");
+ this.props.history.push("/orders");
 }}>Check My order</Button>
       </div>);
   }

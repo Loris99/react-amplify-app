@@ -82,7 +82,7 @@ class Deliveries extends Component {
                 </CardContent>
                 <CardActions>
                   <Button size="small" onClick={()=>{
-                    this.props.history.push("/order")}}>check my order</Button>
+                    this.props.history.push("/orders")}}>check my order</Button>
                 </CardActions>
               </Card>
             </Grid>
@@ -102,4 +102,4 @@ class Deliveries extends Component {
 //   }
 // }
 
-export default Deliveries;
+export default withRouter(Deliveries);

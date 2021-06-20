@@ -43,7 +43,7 @@ class Customers extends Component {
 
   componentDidMount() {
 
-    const api = 'https://87ztnje4aa.execute-api.eu-central-1.amazonaws.com/V1/BZU1_WebPage/Customers?TableName=BZU1_Products';
+    const api = 'https://87ztnje4aa.execute-api.eu-central-1.amazonaws.com/V1/BZU1_WebPage/Customers?TableName=BZU1_Customers';
     axios
       .get(api, {})
       .then((response) => {
